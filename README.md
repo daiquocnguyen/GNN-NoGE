@@ -17,8 +17,11 @@ This program provides the implementation of our NoGE as described in [our paper]
 	<img src="https://github.com/daiquocnguyen/GNN-NoGE/blob/master/NoGE.png" width="750">
 </p>
 
-
 ## Usage
+
+### News
+
+- 25 September 2021: Release the Pytorch implementation of NoGE.
 
 ### Requirements
 - Python 3.7
