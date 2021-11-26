@@ -11,7 +11,7 @@
 <a href="https://github.com/daiquocnguyen/GNN-NoGE/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/daiquocnguyen/GNN-NoGE"></a>
 <img alt="GitHub" src="https://img.shields.io/github/license/daiquocnguyen/GNN-NoGE">
 
-This program provides the implementation of our NoGE as described in [our paper](https://arxiv.org/abs/2104.07396). Given a knowledge graph, NoGE constructs a single graph considering entities and relations as individual nodes. NoGE then computes weights for edges among nodes based on the co-occurrence of entities and relations. Next, NoGE proposes Dual Quaternion Graph Neural Networks (Dual-QGNN) and utilizes Dual-QGNN to update vector representations for entity and relation nodes. NoGE then adopts a score function to produce the triple scores.
+This program provides the implementation of our NoGE as described in [our paper](https://arxiv.org/abs/2104.07396). Given a knowledge graph, NoGE constructs a single graph considering entities and relations as individual nodes and then computes weights for edges among nodes based on the co-occurrence of entities and relations. NoGE leverages vanilla GNNs (such as GCNs, Quaternion GNNs and our proposed Dual Quaternion GNNs) to update vector representations for entity and relation nodes. Then NoGE adopts a score function to produce the triple scores.
 
 <p align="center">
 	<img src="https://github.com/daiquocnguyen/GNN-NoGE/blob/master/NoGE.png" width="750">
