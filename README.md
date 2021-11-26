@@ -19,10 +19,6 @@ This program provides the implementation of our NoGE as described in [our paper]
 
 ## Usage
 
-### News
-
-- 25 September 2021: Release the Pytorch implementation of NoGE.
-
 ### Requirements
 - Python 3.7
 - Pytorch 1.5.0 & CUDA 10.1
