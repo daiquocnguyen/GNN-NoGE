@@ -36,11 +36,11 @@ This program provides the implementation of our NoGE as described in [our paper]
 
 Please cite the paper whenever NoGE is used to produce published results or incorporated into other software:
 
-    @article{Nguyen2021NoGE,
+    @inproceedings{Nguyen2022NoGE,
         author={Dai Quoc Nguyen and Vinh Tong and Dinh Phung and Dat Quoc Nguyen},
         title={Node Co-occurrence based Graph Neural Networks for Knowledge Graph Link Prediction},
-        journal={arXiv preprint arXiv:2104.07396},
-        year={2021}
+        booktitle={Proceedings of WSDM 2022 (Demonstrations)},
+        year={2022}
     }
 
 ## License
